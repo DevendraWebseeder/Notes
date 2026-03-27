@@ -46,7 +46,7 @@ export default function NotesList({ setEditNote }) {
               <h4 className="font-bold">{note.title}</h4>
               <p className="p-2 outline rounded-full">{note.tags}</p>
             </span>
-            <p>{note.content}</p>
+            <p classname="mt-2 p-1">{note.content}</p>
             <div className="w-full h-px my-1 bg-black"></div>
             <button
               className="bg-blue-400 text-white mt-2 py-2 px-8 rounded-2xl"
